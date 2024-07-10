@@ -74,3 +74,16 @@ This tutorial outlines the implementation of on-premises Active Directory within
   <img width="957" alt="image" src="https://github.com/JacobKnittle/Active-Directory-Install-and-Configure-Using-Azure/assets/124555008/1e031e15-d8a5-4320-86d4-d20282029c17">
 
 </p>
+
+9.) After it is done installing we are going to do some configuration starting by clicking on the flag at the top of Server Manager -> select Promote this server to a domain controller -> Add a new forest and name the root domain whatever you'd like. Setup a password and go through the installation wizard. Once completed your VM will restart.
+
+<p>
+<img width="960" alt="image" src="https://github.com/JacobKnittle/Active-Directory-Install-and-Configure-Using-Azure/assets/124555008/80090954-68eb-452e-93f6-a355f4573805">
+</p>
+
+10.) When you log back in to your DC it is now set up using that domain name so change your username to whatever your domain name is and \username (Ex: mydomain.com\labuser) and your normal password.
+
+<p>
+  <img width="338" alt="image" src="https://github.com/JacobKnittle/Active-Directory-Install-and-Configure-Using-Azure/assets/124555008/32bf9f4e-bc3b-4355-966e-948231090918">
+
+</p>
