@@ -54,5 +54,16 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 </p>
 
-6.) Return to your client-1 VM that is open and open the command prompt from the search bar and type ping -t (private IP address here).
+6.) Return to client-1 VM and open the command prompt from the search bar and type ping -t (private IP address here).
 
+<p>
+  <img width="503" alt="image" src="https://github.com/JacobKnittle/Active-Directory-Install-and-Configure-Using-Azure/assets/124555008/c1cd505d-a8d3-46a3-8a33-2e9e62b7775d">
+
+</p>
+
+7.) Next take the Public IP address from DC-1 and use it with remote desktop to login. On DC-1 search for Windows Defender Firewall -> Inbound Rules -> sort by selecting the Protocol tab -> Enable Rules for Core Networking Diagnostics. This will allow ICMP requests and replies to go back and forth between Client and DC.
+
+<p>
+  <img width="851" alt="image" src="https://github.com/JacobKnittle/Active-Directory-Install-and-Configure-Using-Azure/assets/124555008/4cc44681-13d5-4a45-93c8-d54180670f46">
+
+</p>
