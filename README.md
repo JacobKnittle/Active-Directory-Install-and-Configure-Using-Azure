@@ -42,4 +42,16 @@ This tutorial outlines the implementation of on-premises Active Directory within
   <img width="605" alt="image" src="https://github.com/JacobKnittle/Active-Directory-Install-and-Configure-Using-Azure/assets/124555008/4d211d3c-1a67-47f5-9a43-cffb4fbbdc31">
 </p>
 
-5.) We are now going to log into client-1s public IP address using remote desktop to ping DC-1s private IP address with a perpetual ping.
+5.) We are now going to log into client-1s public IP address using remote desktop to ping DC-1s private IP address with a perpetual ping. To get the private IP address for DC-1 go to Virtual Machines -> DC-1 -> network settings -> copy the private IP address.
+
+<p>
+  
+<img width="993" alt="image" src="https://github.com/JacobKnittle/Active-Directory-Install-and-Configure-Using-Azure/assets/124555008/eadd4e9c-6664-4d35-8abb-506fb974d10e">
+</p>
+
+<p>
+  <img width="695" alt="image" src="https://github.com/JacobKnittle/Active-Directory-Install-and-Configure-Using-Azure/assets/124555008/0935f385-93ac-403b-a30e-0320d0a29983">
+
+</p>
+
+
