@@ -87,3 +87,24 @@ This tutorial outlines the implementation of on-premises Active Directory within
   <img width="338" alt="image" src="https://github.com/JacobKnittle/Active-Directory-Install-and-Configure-Using-Azure/assets/124555008/32bf9f4e-bc3b-4355-966e-948231090918">
 
 </p>
+
+11.) Next search for Active Directory Users and Computers on DC and we are going to create Organizational Unit (OU) which are basically folders. Right-click on your domain.com -> new Organizational Unit and name it _EMPLOYEES and then another one for _ADMINS.
+
+12.) We will now create a admin user for us to use so right click on _ADMINS -> new -> user. Fill out your name and username along with setting up a password. Under the password part deselect the must change password and select the password never expires and finish the installation.
+
+<p>
+  <img width="244" alt="image" src="https://github.com/JacobKnittle/Active-Directory-Install-and-Configure-Using-Azure/assets/124555008/5fd3f420-e82e-4437-a3ea-09979857a981">
+
+</p>
+
+<p>
+  <img width="244" alt="image" src="https://github.com/JacobKnittle/Active-Directory-Install-and-Configure-Using-Azure/assets/124555008/42d477c6-79a4-4211-8c43-2cda521ce5af">
+
+</p>
+
+13.) Next to make the account an admin we are going to right click your account in _ADMINS -> properties -> Member Of -> Add -> type domain -> check names -> Domain Admins -> ok.
+
+<p>
+  <img width="230" alt="image" src="https://github.com/JacobKnittle/Active-Directory-Install-and-Configure-Using-Azure/assets/124555008/da351fcb-3b4f-4e43-b6aa-9b588e71fa9a">
+
+</p>
