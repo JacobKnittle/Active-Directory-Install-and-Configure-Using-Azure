@@ -41,3 +41,5 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
   <img width="605" alt="image" src="https://github.com/JacobKnittle/Active-Directory-Install-and-Configure-Using-Azure/assets/124555008/4d211d3c-1a67-47f5-9a43-cffb4fbbdc31">
 </p>
+
+5.) We are now going to log into client-1s public IP address using remote desktop to ping DC-1s private IP address with a perpetual ping.
