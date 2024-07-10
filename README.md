@@ -54,4 +54,5 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 </p>
 
+6.) Return to your client-1 VM that is open and open the command prompt from the search bar and type ping -t (private IP address here).
 
