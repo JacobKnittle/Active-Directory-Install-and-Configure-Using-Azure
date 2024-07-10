@@ -67,3 +67,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
   <img width="851" alt="image" src="https://github.com/JacobKnittle/Active-Directory-Install-and-Configure-Using-Azure/assets/124555008/4cc44681-13d5-4a45-93c8-d54180670f46">
 
 </p>
+
+8.) We are now going to install Active Directory onto DC-1. Open up Server Manager on DC-1 -> Add Roles and features -> go through the install wizard and make sure you select ACtive Directory Domain Services before finishing the installation.
+
+<p>
+  <img width="957" alt="image" src="https://github.com/JacobKnittle/Active-Directory-Install-and-Configure-Using-Azure/assets/124555008/1e031e15-d8a5-4320-86d4-d20282029c17">
+
+</p>
