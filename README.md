@@ -126,4 +126,22 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 17.) Log into Client-1 use your domainname\admin username. Next we are going to set up all users having access to the domain. Right click start menu -> system -> remote desktop -> select users that can remotely access this PC -> add -> add in Domain Users -> Check Names -> ok.
 
-18.) Return to DC-1 and go to Server Manager
+18.) Return to DC-1 and open powershell ISE by right-clicking and running as administrator from the search bar. Next copy the script from (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1) to create some sample users-> create a new file -> paste the script in it and click run script.
+
+<p>
+  <img width="855" alt="image" src="https://github.com/JacobKnittle/Active-Directory-Install-and-Configure-Using-Azure/assets/124555008/f3260577-df12-4f65-b7da-9c84ae84cd2f">
+
+</p>
+
+19.) Lastly, you can search Active Directory Users and Computers -> click on your domain.com -> _EMPLOYEES to see all the names created. You can also copy a name and actually log in using your domain name \ name on client-1 and the using the Password Password1 made by the script.
+
+<p>
+  <img width="422" alt="image" src="https://github.com/JacobKnittle/Active-Directory-Install-and-Configure-Using-Azure/assets/124555008/5983d7b5-3ad8-419d-a852-3bd7dc2c1ac2">
+
+</p>
+
+<p>
+  <img width="163" alt="image" src="https://github.com/JacobKnittle/Active-Directory-Install-and-Configure-Using-Azure/assets/124555008/4a104333-e202-444f-ad69-dbb94862d132">
+
+
+</p>
