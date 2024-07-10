@@ -35,3 +35,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
   <img width="1279" alt="image" src="https://github.com/JacobKnittle/Active-Directory-Install-and-Configure-Using-Azure/assets/124555008/525cdb53-af60-4db2-8dbb-85a76fd7f9ff">
 
 </p>
+
+4.) Now create a Client VM with Windows 10 named Client-1. Make sure it has the same Resource Group and Vnet (check under the network tab) as DC-1.
+
+<p>
+  <img width="605" alt="image" src="https://github.com/JacobKnittle/Active-Directory-Install-and-Configure-Using-Azure/assets/124555008/4d211d3c-1a67-47f5-9a43-cffb4fbbdc31">
+</p>
