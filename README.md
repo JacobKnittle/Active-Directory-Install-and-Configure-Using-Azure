@@ -108,3 +108,22 @@ This tutorial outlines the implementation of on-premises Active Directory within
   <img width="230" alt="image" src="https://github.com/JacobKnittle/Active-Directory-Install-and-Configure-Using-Azure/assets/124555008/da351fcb-3b4f-4e43-b6aa-9b588e71fa9a">
 
 </p>
+
+14.) Logout and log back into DC using your domain name\admin name (ex: mydomain.com\jane_admin).
+
+15.) Now we are going to connect our Client-1 to DC-1 as our DNS. Start off by going back to azure portal and the DC-1 virtual machine information. Select network settings -> network interface -> Copy Private IP. Then go to client 1 -> network settings -> network interface -> DNS Servers -> Custom -> paste in the Private IP and save it. Lastly, you will want to restart the virtual machine to update the changes.
+
+<p>
+  
+<img width="666" alt="image" src="https://github.com/JacobKnittle/Active-Directory-Install-and-Configure-Using-Azure/assets/124555008/fc9209db-26fe-46d8-8f24-18c3fe0c9977">
+</p>
+
+16.) Log back in to Client-1 using your original admin (for me labuser). We are going to join the domain so right click on the windows icon and select system -> Rename this PC -> Change -> Domain and enter your domain -> ok and add your domain with \admin username and your password. Press ok on the popup and the server should restart.
+
+<p>
+  <img width="784" alt="image" src="https://github.com/JacobKnittle/Active-Directory-Install-and-Configure-Using-Azure/assets/124555008/b94d4a34-2e09-4288-a4d9-e91d33bdf700">
+</p>
+
+17.) Log into Client-1 use your domainname\admin username. Next we are going to set up all users having access to the domain. Right click start menu -> system -> remote desktop -> select users that can remotely access this PC -> add -> add in Domain Users -> Check Names -> ok.
+
+18.) Return to DC-1 and go to Server Manager
